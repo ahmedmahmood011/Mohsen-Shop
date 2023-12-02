@@ -160,7 +160,7 @@ function darkMode() {
         btn.addEventListener("click",()=>{
             button.forEach((b)=>b.classList.remove("on"))
             btn.classList.add("on")
-            if (btn.innerHTML === "نعم) {
+            if (btn.innerHTML === "نعم") {
                 colors(1)
                 localStorage.setItem("dark-mode", "Yes")
             } else {
